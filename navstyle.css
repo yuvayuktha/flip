@@ -1,0 +1,216 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#fff242;
+    scroll-behavior:smooth 5s; 
+}
+/* Navigation bar style */
+
+nav{
+    background-color:#F8E831;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+nav li{
+    display:inline-block;
+    margin: 0 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+
+}
+nav a:hover{
+    color: white;
+
+}
+nav .search-button:hover{
+    color: green;
+}
+.icon{
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    font-weight: bolder;
+}
+.logo a{
+    font-size: 25px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: auto;
+    height: 30px;
+    padding:0 5px;
+    border-radius: 3px;
+ 
+}
+nav input{
+    width: 400px;
+    height: 28px;
+    outline: none;
+    border: none;
+}
+nav input::placeholder{
+    font-style: italic;
+    
+}
+nav i{
+    font-weight: bolder;
+}
+/*Box images */
+.main-container{
+    display:flex;
+    align-items: center;
+    overflow: visible;
+    justify-content: space-around;
+}
+       .containers{
+           background-color: whitesmoke;
+           width:350px;
+           height: auto;
+           margin-left: 20px;
+          
+       }
+       .containers .offer{
+           font-size: 25px;
+           font-weight: bolder;
+           padding-left: 20px;
+           padding-top: 10px;
+       }
+
+       .containers .img-con{
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          
+       }
+
+       .img-con img{
+          width: 120px;
+          height: 120px;
+          background-color:#F8E831;
+          border-radius: 8px;
+       }
+
+       .all-offers{
+         text-decoration: none;
+         padding: 10px;
+         color: green;
+       }
+     #co{
+        padding-left: 20px;
+     }
+       
+   /* button buy styles */
+  .btn-buy{
+     background-color: #f7f7f5;
+     border-radius:0px 0px  10px 10px;
+     padding:5px;
+     padding-left: 50px;
+  }
+  .btn-buy button{
+    border: none;
+    outline: none;
+    background-color:#e0e0dc;
+    font-size: 20px;
+    padding:8px;
+    color:#2a00c4;
+    font-weight: bolder;  
+    border-radius: 8px;
+  }
+
+/* Home page style */
+.bod{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:#fff242;
+    padding:10px;
+}
+.container{
+    background-image: url("./Screenshot_2021-09-26_at_4.40._1200x768.avif");
+    width:100%;
+    height:400px;
+    border-radius: 10px;
+}
+
+ .soc a{
+   font-size: 30px;
+   padding:7px;
+}
+
+.soc a:hover{
+   color:green;
+}
+.products-one{
+    background-color: rgb(99, 208, 241);
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+.mypro{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mypro .product {
+   background-color: rgb(230, 229, 229);
+   margin: 5px;
+   border-radius: 10px;
+}
+.mypro .product img{
+   width: 200px;
+   height: 150px;
+   margin-top: 15px;
+   border-radius: 19px;
+   padding-left: 9px;
+}
+.mypro .product:hover{
+    transform: scale(1opx);
+}
+.mypro .product p{
+    text-align: center;
+}
+.mypro .product span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    align-items: center;
+    padding-left: 15px;
+}
+.rate{
+    text-decoration: line-through;
+}
+/*footer*/
+footer{
+    background-color: rgb(100, 96, 96);
+    width: auto;
+    height: 300px;
+    
+}
+.social-icons {
+    padding:5px;
+    margin-top: 10px;
+    background-color: rgb(206, 217, 226);
+    width: fit-content;
+    border-radius: 10px;
+}
+.social-icons a{
+     font-size: 20px;
+     color: blue;
+     padding-right:5px;
+     text-decoration: none;
+}
+.social-icons a span{
+    font-size: 15px;
+}
+
+
+
